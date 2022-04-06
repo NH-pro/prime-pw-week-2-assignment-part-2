@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called 'name' and set it to 'Dane'.
+// We check if 'name' is set to 'Mary'. 
+// 'name' is set to 'Dane', so we console log 'How do you do?'.
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called 'secret'. We make another variable called 'code' and set it to '123'.
+// We check to see if 'code' is set to '123'. 'secret' is set to 'super' and 'code' is set to '246'.
+// We check to see if 'code' is greater than 250. 'secret' is set to 'duper'. 
+// We console log 'duper'.
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called 'isStudent' and set it to the boolean 'true'.
+// We make a variable called 'age' and set it to '34'. We make a variable called 'zip' and set it to '55407'.
+// We check to see if 'isStudent' is set to 'true' and zip is greater than 80000; there are not, so we move to the next conditional.
+// We check to see if 'isStudent' is set to 'false' or if 'age' is less than '30'; they are not, so me move to the next conditional.
+// We check to see if 'isStudent' is set to 'true'; it is, so we console log 'Welcome to Prime!'.
 
 //CODE
 /*
@@ -130,12 +131,20 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - 'colorOne' is set to 'red', but the instructions ask to set it to 'blue'.
+// Should be let colorOne = 'blue'.
 let colorOne = 'red';
+
+// FIX - 'colorTwo' is set to 'blue', but instructions ask to set it to 'red'.
+// Should be let colorTwo = 'red'.
 let colorTwo = 'blue';
+
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// FIX - The instructions say that colorTwo should be in this statement too.
+// Should be colorTwo = 'purple';
 }
 */
 
