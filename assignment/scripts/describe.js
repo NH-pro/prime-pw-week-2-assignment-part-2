@@ -154,8 +154,12 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX - Later on in the instructions, we are asked to check if 'time' is greater or equal to 4.
+// This suggests that 'time' is meant to change so it is not a 'const', but a 'let' variable instead. 
 const time = 4;
 
+// FIX - Instructions ask to check 'temp' AND 'time'. The code below is checking 'temp' OR 'time'.
+// Should be (temp > 39 && time >= 4).
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -169,8 +173,13 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - Instructions ask to check if 'age' is greater than or equal to 'minAge', the code will work, but it is not formatted correctly.
+// Should be (age >= minAge).
 if(minAge <= age) {
   console.log('no entry');
+
+// FIX - I think this is another format error. 'else' is on the wrong line.
+// 'else' should be on it's own and start the next line .
 } else {
   console.log('enter');
 }
